@@ -26,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+
+
+
       <body
         className={`${notoSans.variable} ${notoSerif.variable} font-[family-name:var(--font-noto-sans)] antialiased`}
       >
