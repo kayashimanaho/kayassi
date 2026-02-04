@@ -15,7 +15,7 @@ const notoSerif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Kayashi | Personal Blog",
+  title: "K's Blog | Personal Blog",
   description: "かやしの個人ブログ。プログラミング、テクノロジー、日常について綴っています。",
 };
 

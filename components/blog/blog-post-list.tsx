@@ -45,8 +45,8 @@ export function BlogPostList({ posts }: BlogPostListProps) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
             ) : (
-              <div className="relative w-full h-48 bg-gradient-to-br from-amber-100 via-orange-50 to-rose-100 flex items-center justify-center">
-                <span className="text-4xl font-bold text-amber-300/50 font-[family-name:var(--font-noto-serif)]">
+              <div className="relative w-full h-48 bg-gradient-to-br from-slate-100 via-indigo-50 to-purple-50 flex items-center justify-center">
+                <span className="text-4xl font-bold text-indigo-300/50 font-[family-name:var(--font-noto-serif)]">
                   {post.title.charAt(0)}
                 </span>
               </div>
