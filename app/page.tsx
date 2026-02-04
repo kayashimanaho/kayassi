@@ -66,7 +66,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                 K's Blog
               </span>
             </Link>
-            <nav className="flex items-center gap-4">
+            {/* <nav className="flex items-center gap-4">
               <Link
                 href="https://github.com"
                 target="_blank"
@@ -87,7 +87,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                 </svg>
               </Link>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </header>
@@ -168,7 +168,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                     K's Blog
                   </h2>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Developer / 
+                    Developer /
                     housewife / mother
                   </p>
                 </div>
@@ -179,7 +179,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                 </p>
 
                 {/* Social Links */}
-                <div className="flex items-center justify-center gap-3">
+                {/* <div className="flex items-center justify-center gap-3">
                   <Link
                     href="https://github.com"
                     target="_blank"
@@ -200,7 +200,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                     </svg>
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               {/* Categories Card */}
@@ -214,11 +214,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                       <Link
                         key={category.id}
                         href={`/?category=${category.id}`}
-                        className={`flex items-center justify-between p-2 rounded-lg text-sm transition-colors ${
-                          categoryId === category.id
-                            ? "bg-primary text-primary-foreground"
-                            : "hover:bg-muted"
-                        }`}
+                        className={`flex items-center justify-between p-2 rounded-lg text-sm transition-colors ${categoryId === category.id
+                          ? "bg-primary text-primary-foreground"
+                          : "hover:bg-muted"
+                          }`}
                       >
                         <span>{category.name}</span>
                         <svg className="w-4 h-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -260,9 +259,9 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               <Link href="/" className="hover:text-foreground transition-colors">
                 Home
               </Link>
-              <Link href="https://github.com" className="hover:text-foreground transition-colors">
+              {/* <Link href="https://github.com" className="hover:text-foreground transition-colors">
                 GitHub
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
