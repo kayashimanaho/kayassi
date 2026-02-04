@@ -25,7 +25,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <div className="mb-6">
         <Button asChild variant="ghost" size="sm">
-          <Link href="/blog">
+          <Link href="/">
             <ArrowLeft className="size-4 mr-2" />
             ブログ一覧に戻る
           </Link>

@@ -30,7 +30,7 @@ export function Pagination({
       params.set("page", page.toString());
     }
     const queryString = params.toString();
-    return `/blog${queryString ? `?${queryString}` : ""}`;
+    return `/${queryString ? `?${queryString}` : ""}`;
   };
 
   const getPageNumbers = () => {

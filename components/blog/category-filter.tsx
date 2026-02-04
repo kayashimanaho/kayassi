@@ -25,7 +25,7 @@ export function CategoryFilter({
       params.delete("category");
     }
     params.delete("page"); // カテゴリ変更時はページをリセット
-    return `/blog?${params.toString()}`;
+      return `/?${params.toString()}`;
   };
 
   return (

@@ -9,7 +9,7 @@ export default function NotFound() {
         お探しの記事は存在しないか、削除された可能性があります。
       </p>
       <Button asChild>
-        <Link href="/blog">ブログ一覧に戻る</Link>
+        <Link href="/">ブログ一覧に戻る</Link>
       </Button>
     </div>
   );

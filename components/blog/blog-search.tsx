@@ -26,7 +26,7 @@ export function BlogSearch({ initialQuery }: BlogSearchProps) {
       } else {
         params.delete("q");
       }
-      router.push(`/blog?${params.toString()}`);
+      router.push(`/?${params.toString()}`);
     });
   };
 
