@@ -17,6 +17,8 @@ export default function ContactPage() {
                     name="contact"
                     method="POST"
                     data-netlify="true"
+                    /* action を追加することで、送信後にどこへ飛ばすか指定できます */
+                    action="/contact?success=true"
                     className="space-y-6"
                 >
                     {/* Netlify Formsに必要な隠しフィールド */}
