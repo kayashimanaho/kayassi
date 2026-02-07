@@ -259,6 +259,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               <Link href="/" className="hover:text-foreground transition-colors">
                 Home
               </Link>
+              {/* 追加：プライバシーポリシー */}
+              <Link href="/privacy" className="hover:text-foreground transition-colors">
+                プライバシーポリシー
+              </Link>
+              {/* 追加：お問い合わせ（まだページがない場合は一旦トップへ戻すか、作成後にリンクを有効にしてください） */}
+              <Link href="/contact" className="hover:text-foreground transition-colors">
+                お問い合わせ
+              </Link>
               {/* <Link href="https://github.com" className="hover:text-foreground transition-colors">
                 GitHub
               </Link> */}
